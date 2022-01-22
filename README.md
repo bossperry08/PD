@@ -1,1 +1,1 @@
-# Tắt bảo mật trước khi dùng
+#Turn off Kaspersky or whatever you use
