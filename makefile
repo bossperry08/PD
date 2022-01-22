@@ -1,5 +1,5 @@
-setup:
-   pip install pypiwin32
-   pip install pycryptodome
+setup: 
+	pip install pypiwin32; 
+	pip install pycryptodome;
    
   
