@@ -62,7 +62,7 @@ def main():
     db = sqlite3.connect(filename)
     cursor = db.cursor()
     # `logins` table has the data we need
-    cursor.execute("select origin_url, action_url, username_value, password_value, date_created, date_last_used from logins order by date_created")
+    cursor.execute("SELECT origin_url, action_url, username_value, password_value, date_created, date_last_used from logins ORDER BY date_created")
     # iterate over all rows
     for row in cursor.fetchall():
         origin_url = row[0]
